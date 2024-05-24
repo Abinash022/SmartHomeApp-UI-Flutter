@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smart_home_app/Screens/homescreen.dart';
+import 'package:smart_home_app/Screens/mode_screen.dart';
 import 'package:smart_home_app/Screens/profilescreen.dart';
 
 class BottomNavBar extends StatefulWidget {
@@ -13,9 +14,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
   int _currentIndex = 0;
   List pages = [
     const HomeScreen(),
-    const Center(
-      child: Text('2nd'),
-    ),
+    const ModePage(),
     const ProfileScreen(),
   ];
   void _onItemTapped(int index) {
