@@ -28,21 +28,41 @@ class _BottomNavBarState extends State<BottomNavBar> {
     return Scaffold(
       body: pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        elevation: 0.0,
+        enableFeedback: true,
+        fixedColor: const Color(0XFF415ef2),
         backgroundColor: const Color(0XFFf7f7f8),
         currentIndex: _currentIndex,
         onTap: _onItemTapped,
         type: BottomNavigationBarType.fixed,
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: SizedBox(
+              width: 24, // Set the desired width
+              height: 24, // Set the desired height
+              child: Image(
+                image: AssetImage('Assets/home.png'),
+                color: Color(0XFF415ef2),
+              ),
+            ),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_a_photo),
-            label: 'add',
+            icon: SizedBox(
+              width: 24, // Set the desired width
+              height: 24, // Set the desired height
+              child: Image(
+                image: AssetImage('Assets/icons8-merge-horizontal-50.png'),
+                color: Color(0XFF415ef2),
+              ),
+            ),
+            label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
+            icon: Icon(
+              Icons.person,
+              color: Color(0XFF415ef2),
+            ),
             label: 'Profile',
           ),
         ],
