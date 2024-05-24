@@ -119,7 +119,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '5 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -142,7 +142,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '4 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -165,7 +165,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '6 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -188,7 +188,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '2 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -280,7 +280,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '3 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -303,7 +303,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '4 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -326,7 +326,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '4 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
@@ -349,7 +349,7 @@ class ProfileScreen extends StatelessWidget {
                               Text(
                                 '2 devices',
                                 style: TextStyle(
-                                  fontWeight: FontWeight.normal,
+                                  fontWeight: FontWeight.w500,
                                   color: Color(0XFF415ef2),
                                   fontSize: 13.0,
                                 ),
